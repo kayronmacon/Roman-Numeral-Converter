@@ -1,5 +1,6 @@
-let array = [];
+
 function convertToRoman(num) {
+let array = [];
 while(num > 0){
 if (num >= 1000) {
 array.push("M");
